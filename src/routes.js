@@ -3,7 +3,7 @@ const express = require('express');
 const OngController = require('./controllers/ong_controller');
 const IncidentController = require('./controllers/incident_controller');
 const ProfileController = require('./controllers/ongs/profile_controller');
-const SessionController = require('./controllers/ongs/session_controller');
+const SessionController = require('./controllers/session_controller');
 
 const routes = express.Router();
 
